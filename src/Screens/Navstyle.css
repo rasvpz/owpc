@@ -1,0 +1,136 @@
+.navBg{
+    background-color: #020108;
+    padding: 0px !important;
+    padding: 5px !important;
+    
+}
+.navFg{
+    color:white !important;
+}
+
+.nav-link {
+
+    color: #b0dafb !important;
+}
+.paddinNav{
+    padding-top: 20px !important;
+    border-bottom: transparent; /* Initial color */
+    transition: border-bottom 0.3s ease; /* Smooth transition on hover */
+    display: inline-block;
+    position: relative;
+    /* background-color: aqua !important; */
+}
+.navFg{
+    padding-top: 13px;
+
+}
+.paddinNavOwpc{
+    padding-top: 12px;
+}
+.signInFg{
+    color:#011530 !important;
+}
+
+.signInBgFg{
+    color: #011530 !important;
+    background-color:#FFC327 !important;
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 19px !important;
+    padding: 8px;
+}
+.paddinNav:hover {
+    border-bottom: #FFC327 !important;
+  }
+
+
+  .paddinNav::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px; /* Set the height of the border */
+    background-color: transparent; /* Initial color */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  .paddinNav:hover::after {
+    background-color: #FFC327; /* Color on hover */
+  }
+
+
+  /* Add the transition property to .nav-item */
+.nav-item {
+  display: inline-block;
+  position: relative;
+}
+
+/* Apply the border color on hover */
+.nav-item::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px; /* Set the height of the border */
+  background-color: transparent; /* Initial color */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.nav-item:hover::after {
+  background-color: #FFC327; /* Color on hover */
+}
+
+.introContainer{
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Set the container height to the full viewport height */
+}
+
+.modal-header {
+  background-color: #0c0e27;
+  color: #fff;
+  border-bottom: 1px solid #011a2f !important; /* If you want to remove the border at the bottom of the header */
+}
+
+.modal-body {
+  background-color: #0c0e27;
+  color: #fff;
+}
+
+.btn-close {
+  color: #f7e22c !important;
+  opacity: 1;
+}
+.modal-footer {
+  background-color: #F5E746 !important;
+}
+
+.modal-title {
+  font-size: 14px !important;
+}
+.closeBtnFooter{
+  border: 2px solid #011530 !important;
+  background-color:transparent !important;
+  color: #011530 !important;
+}
+
+.submitBtnFooter{
+  background-color: #011530 !important;
+border: 1px solid #F5E746 !important;
+}
+
+.btn-close{
+  background-color: #F5E746 !important;
+}
+
+.p-2 {
+  padding: 0rem !important;
+}
+
+.form-control{
+background-color: transparent !important;
+color: white !important;
+}
